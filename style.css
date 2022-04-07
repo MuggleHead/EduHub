@@ -1,0 +1,1511 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+body{
+    overflow-x: hidden;
+  }
+.image1{
+  height: 90vh;
+  width: 100.5vw;
+  display: flex;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.pic1{
+
+    margin-left: -1vw;
+    margin-top: -0.9vh;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  top: 4vh;
+  left:30vw;
+  position: absolute;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bolder;
+}
+.grid-item {
+  padding: 26px;
+  font-size: 30px;
+  text-align: center;
+}
+.quote{
+  top:50vh;
+  left: 32vw;
+  position: absolute;
+  font-family: 'Lora', serif;
+  font-size: 45px;
+  font-weight: bolder;
+  text-align: center;
+}
+.logo{
+    top:1vh;
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+}
+.heading{
+  background: #EADEB6;
+  background: -webkit-linear-gradient(to bottom, #EADEB6 0%, #D3A425 85%, #B1871A 48%);
+  background: -moz-linear-gradient(to bottom, #EADEB6 0%, #D3A425 85%, #B1871A 48%);
+  background: linear-gradient(to bottom, #EADEB6 0%, #D3A425 85%, #B1871A 48%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+font-weight: bold;
+font-size: 40px;
+position: absolute;
+top:130vh;
+left:50vw;
+font-family: 'Roboto Slab', serif;
+}
+.position{
+  top:130vh;
+  position: absolute;
+}
+.head{
+  padding-left: 42vw;
+  font-family: 'Roboto Slab', serif;
+  background: #EADEB6;
+  background: -webkit-linear-gradient(to bottom, #EADEB6 0%, #D3A425 85%, #B1871A 48%);
+  background: -moz-linear-gradient(to bottom, #EADEB6 0%, #D3A425 85%, #B1871A 48%);
+  background: linear-gradient(to bottom, #EADEB6 0%, #D3A425 85%, #B1871A 48%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+font-weight: bold;
+font-size: 40px;
+}
+.book2{
+  left:10vw;
+  position: absolute;
+  top:-1vh;
+}
+.book1{
+  left:20vw;
+  position: absolute;
+  top:16vh;
+  z-index: 1;
+}
+.book3{
+  left:1vw;
+  position: absolute;
+  top:27vh;
+  z-index: 0.5;
+}
+.about{
+  text-align: left;
+  left:50vw;
+  position: absolute;
+  top:140vh;
+  font-family: 'Lora', serif;
+  font-weight: 300;
+  font-size: 30px;
+line-height: 6vh;
+}
+#buto{
+  top:205vh;
+  left:50vw;
+  position: absolute;
+  background-image: linear-gradient(#FFA800, white);
+  height: 5vh;
+  width: 10vw;
+  border-radius: 35px;
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  font-weight:bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+#myDIV {
+  width: 100%;
+  text-align: center;
+  background-color: none;
+  top: 200vh;
+  position: absolute;
+  left:10vw;
+  display:none;
+  font-family: 'Lora', serif;
+  font-weight: 300;
+  font-size: 30px;
+line-height: 6vh;
+}
+.cont{
+  top:300vh;
+  position: absolute;
+}
+.col1{
+  left:20vw;
+  position: absolute;
+}
+.col2{
+  left: 50vw;
+  position: absolute;
+  width: 30vw;
+  font-size: 20px;
+  font-weight:bold;
+  font-family: 'Lora', serif;
+
+}
+.col4{
+  left:60vw;
+  position: absolute;
+}
+.col3{
+  left: 20vw;
+  position: absolute;
+  width: 30vw;
+  font-size: 20px;
+  font-weight:bold;
+  font-family: 'Lora', serif;
+
+}
+
+.row{
+  top: 4vh;
+  position: absolute;
+}
+.row2{
+  top: 70vh;
+  position: absolute;
+}
+.row3{
+  top: 140vh;
+  position: absolute;
+}
+  .row4{
+    top: 210vh;
+    position: absolute;
+  }
+  .row5{
+    top:280vh;
+    position:absolute;
+  }
+  #course{
+    top:-40vh;
+    position: absolute;
+    left:40vw;
+    font-family: 'Roboto Slab', serif;
+    font-weight:bold;
+    font-size: 50px;
+    background: #EADEB6;
+    background: -webkit-linear-gradient(to bottom, #EADEB6 0%, #D3A425 85%, #B1871A 48%);
+    background: -moz-linear-gradient(to bottom, #EADEB6 0%, #D3A425 85%, #B1871A 48%);
+    background: linear-gradient(to bottom, #EADEB6 0%, #D3A425 85%, #B1871A 48%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+  .cor1{
+    width: 20vw;
+    height: 23vh;
+  }
+  .d1{
+    left:82vw;
+    top:130vw;
+    position: absolute;
+  }
+  .d2{
+    top:190vw;
+    position: absolute;
+    left:0;
+  }
+  .video{
+top:660vh;
+    position: absolute;
+    height: 80vh;
+    width: 100.5vw;
+    background-image: linear-gradient( white,#FFA800);
+    left: 0;
+  }
+  /* Slideshow container */
+.slideshow-container {
+  max-width: 100vh;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: -11vw;
+  position: absolute;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next {font-size: 11px}
+}
+.vid{
+  width:120vh;  height:70vh;
+  padding-left: -90vw;
+}
+.foot{
+  top:840vh;
+  background: linear-gradient(180deg, #FDC706 -9.73%, #021A38 110.94%);
+  width: 1700px;
+  height:450px;
+  left:0;
+position: absolute;
+}
+.ven{
+  font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 800;
+position: absolute;
+color: white;
+font-size: 60px;
+left:200px;
+}
+.ben{
+  font-size: 30px;
+  top:330px;
+}
+.block_pic{
+  height: 50px;
+  width: 50px;
+  top:200px;
+padding-left: 180px;
+  position: absolute;
+}
+.tab{
+width:18%;
+}
+.final{
+  position: absolute;
+  top:840vh;
+left:53vw;
+line-height: 55px;
+  font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 35px;
+color: white;
+text-align: left;
+}
+
+input[type=text], select, textarea {
+  width: 390px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.form{
+  background-color: white;
+  height:600px;
+  width:500px;
+  border-radius: 29px;
+  border-color: black;
+  top:230px;
+
+  position: absolute;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.container {
+  background-color: none;
+  padding: 300px;
+  top:730vh;
+  left:20vw;
+  position: absolute;
+  z-index: 1;
+  font-family: 'Merriweather', serif;
+  color:black;
+
+}
+@media screen and (max-width: 500px) {
+  #img1{
+    height: 70vh;
+    width: 100.5vw;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .log{
+      width: 10vw;
+      height: 10vh;
+  }
+  .quote{
+    top:40vh;
+    left: 25vw;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+  }
+  .position{
+    top:130vh;
+    position: absolute;
+  }
+  .book2{
+    left:10vw;
+    position: absolute;
+    top:-1vh;
+    height: 20vh;
+    width: 25vw;
+  }
+  .book1{
+    left:20vw;
+    position: absolute;
+    top:13vh;
+    height: 20vh;
+    width: 25vw;
+    z-index: 1;
+  }
+  .book3{
+    left:1vw;
+    position: absolute;
+    height: 20vh;
+    width: 25vw;
+    top:20vh;
+    z-index: 0.5;
+  }
+  .heading{
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  top:130vh;
+  left:53vw;
+  }
+  .about{
+    left:50vw;
+    position: absolute;
+    top:140vh;
+    font-size: 10px;
+  line-height: 5vh;
+  }
+  #buto{
+    top:194vh;
+    left:50vw;
+    position: absolute;
+    height: 7vh;
+    width: 12vw;
+    font-size: 7px;
+  }
+  #myDIV {
+    width: 100%;
+    top: 190vh;
+    position: absolute;
+    left:11vw;
+    display:none;
+    font-weight: 300;
+    font-size: 10px;
+  line-height: 5vh;
+  }
+  #course{
+    top:-50vh;
+    position: absolute;
+    left:40vw;
+    font-size: 20px;
+  }
+  .col1{
+    left:20vw;
+    position: absolute;
+  }
+  .col2{
+    left: 50vw;
+    position: absolute;
+    width: 30vw;
+    font-size: 10px;
+
+  }
+  .col4{
+    left:60vw;
+    position: absolute;
+  }
+  .col3{
+    left: 20vw;
+    position: absolute;
+    width: 30vw;
+    font-size: 10px;
+  }
+  .cor1{
+    width: 20vw;
+    height: 20vh;
+  }
+  .row2{
+    top: 50vh;
+    position: absolute;
+  }
+  .row3{
+    top: 150vh;
+    position: absolute;
+  }
+    .row4{
+      top: 200vh;
+      position: absolute;
+    }
+    .row5{
+      top:100vh;
+      position:absolute;
+    }
+    .cont{
+      top:290vh;
+      position: absolute;
+    }
+    .d1{
+      left:90vw;
+      top:220vw;
+      height: 180vh;
+      width: 10vw;
+      position: absolute;
+    }
+    .d2{
+      top:300vw;
+      height: 190vh;
+      width: 10vw;
+      left: 0;
+      position: absolute;
+    }
+    .video{
+  top:590vh;
+      position: absolute;
+      height: 90vh;
+      left: 0;
+      width: 100vw;
+    }
+    /* Slideshow container */
+  .slideshow-container {
+    max-width: 100vh;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 6vw;
+    position: absolute;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next {font-size: 11px}
+  }
+  .vid{
+    width:90vh;  height:50vh;
+    padding-left: 4vw;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .grid-item {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .log{
+      width: 10vw;
+      height: 10vh;
+  }
+  .quote{
+    top:50vh;
+    left: 30vw;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+  }
+  .position{
+    top:130vh;
+    position: absolute;
+  }
+  .book2{
+    left:10vw;
+    position: absolute;
+    top:-1vh;
+    height: 20vh;
+    width: 25vw;
+  }
+  .book1{
+    left:20vw;
+    position: absolute;
+    top:13vh;
+    height: 20vh;
+    width: 25vw;
+    z-index: 1;
+  }
+  .book3{
+    left:1vw;
+    position: absolute;
+    height: 20vh;
+    width: 25vw;
+    top:20vh;
+    z-index: 0.5;
+  }
+  .heading{
+  font-weight: bold;
+  font-size: 28px;
+  position: absolute;
+  top:130vh;
+  left:53vw;
+  }
+  .about{
+    left:50vw;
+    position: absolute;
+    top:140vh;
+    font-size: 18px;
+  line-height: 3vh;
+  }
+  #buto{
+    top:179vh;
+    left:50vw;
+    position: absolute;
+    height: 4vh;
+    width: 12vw;
+    font-size: 10px;
+  }
+  #myDIV {
+    width: 100%;
+    top: 175vh;
+    position: absolute;
+    left:11vw;
+    display:none;
+    font-weight: 300;
+    font-size: 18px;
+  line-height: 3vh;
+  }
+  #course{
+    top:-70vh;
+    position: absolute;
+    left:40vw;
+    font-size: 20px;
+  }
+  .col1{
+    left:20vw;
+    position: absolute;
+  }
+  .col2{
+    left: 50vw;
+    position: absolute;
+    width: 30vw;
+    font-size: 12px;
+
+  }
+  .col4{
+    left:60vw;
+    position: absolute;
+  }
+  .col3{
+    left: 20vw;
+    position: absolute;
+    width: 30vw;
+    font-size: 12px;
+  }
+  .cor1{
+    width: 20vw;
+    height: 15vh;
+  }
+  .row{
+    top:-25vh;
+    position: absolute;
+  }
+  .row2{
+    top: 10vh;
+    position: absolute;
+  }
+  .row3{
+    top: 45vh;
+    position: absolute;
+  }
+    .row4{
+      top: 80vh;
+      position: absolute;
+    }
+    .row5{
+      top:120vh;
+      position:absolute;
+    }
+    .cont{
+      top:290vh;
+      position: absolute;
+    }
+    .d1{
+      left:90vw;
+      top:280vw;
+      height: 180vh;
+      width: 10vw;
+      position: absolute;
+    }
+    .d2{
+      top:360vw;
+      height: 190vh;
+      width: 10vw;
+      left: 0;
+      position: absolute;
+    }
+    .video{
+  top:520vh;
+      position: absolute;
+      height: 90vh;
+      left: 0;
+      width: 100vw;
+    }
+    /* Slideshow container */
+  .slideshow-container {
+    max-width: 100vh;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 6vw;
+    position: absolute;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next {font-size: 11px}
+  }
+  .vid{
+    width:70vh;  height:50vh;
+    padding-left: 4vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .log{
+      width: 10vw;
+      height: 10vh;
+  }
+  .quote{
+    top:50vh;
+    left: 30vw;
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+  }
+  .position{
+    top:130vh;
+    position: absolute;
+  }
+  .book2{
+    left:10vw;
+    position: absolute;
+    top:-1vh;
+    height: 20vh;
+    width: 25vw;
+  }
+  .book1{
+    left:20vw;
+    position: absolute;
+    top:13vh;
+    height: 20vh;
+    width: 25vw;
+    z-index: 1;
+  }
+  .book3{
+    left:1vw;
+    position: absolute;
+    height: 20vh;
+    width: 25vw;
+    top:20vh;
+    z-index: 0.5;
+  }
+  .heading{
+  font-weight: bold;
+  font-size: 28px;
+  position: absolute;
+  top:130vh;
+  left:53vw;
+  }
+  .about{
+    left:50vw;
+    position: absolute;
+    top:140vh;
+    font-size: 18px;
+  line-height: 3vh;
+  }
+  #buto{
+    top:179vh;
+    left:50vw;
+    position: absolute;
+    height: 4vh;
+    width: 12vw;
+    font-size: 10px;
+  }
+  #myDIV {
+    width: 100%;
+    top: 17vh;
+    position: absolute;
+    left:11vw;
+    display:none;
+    font-weight: 300;
+    font-size: 18px;
+  line-height: 3vh;
+  }
+  #course{
+    top:-70vh;
+    position: absolute;
+    left:40vw;
+    font-size: 40px;
+  }
+  .col1{
+    left:20vw;
+    position: absolute;
+  }
+  .col2{
+    left: 50vw;
+    position: absolute;
+    width: 30vw;
+    font-size: 15px;
+
+  }
+  .col4{
+    left:60vw;
+    position: absolute;
+  }
+  .col3{
+    left: 20vw;
+    position: absolute;
+    width: 30vw;
+    font-size: 15px;
+  }
+  .cor1{
+    width: 20vw;
+    height: 15vh;
+  }
+  .row{
+    top:-25vh;
+    position: absolute;
+  }
+  .row2{
+    top: 10vh;
+    position: absolute;
+  }
+  .row3{
+    top: 45vh;
+    position: absolute;
+  }
+    .row4{
+      top: 80vh;
+      position: absolute;
+    }
+    .row5{
+      top:120vh;
+      position:absolute;
+    }
+    .cont{
+      top:290vh;
+      position: absolute;
+    }
+    .d1{
+      left:90vw;
+      top:230vw;
+      height: 180vh;
+      width: 10vw;
+      position: absolute;
+    }
+    .d2{
+      top:360vw;
+      height: 110vh;
+      width: 10vw;
+      left: 0;
+      position: absolute;
+    }
+    .video{
+  top:500vh;
+      position: absolute;
+      height: 70vh;
+      left: 0;
+      width: 100vw;
+    }
+    /* Slideshow container */
+  .slideshow-container {
+    max-width: 100vh;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 6vw;
+    position: absolute;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next {font-size: 11px}
+  }
+  .vid{
+    width:70vh;  height:50vh;
+    padding-left: 15vw;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .grid-item {
+    padding-top: 70px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .log{
+      width: 10vw;
+      height: 10vh;
+
+  }
+  .logo{
+    top:7vh;
+    position: absolute;
+  }
+  .quote{
+    top:50vh;
+    left: 30vw;
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+  }
+  .position{
+    top:130vh;
+    position: absolute;
+  }
+  .book2{
+    left:10vw;
+    position: absolute;
+    top:-1vh;
+    height: 20vh;
+    width: 25vw;
+  }
+  .book1{
+    left:20vw;
+    position: absolute;
+    top:13vh;
+    height: 20vh;
+    width: 25vw;
+    z-index: 1;
+  }
+  .book3{
+    left:1vw;
+    position: absolute;
+    height: 20vh;
+    width: 25vw;
+    top:20vh;
+    z-index: 0.5;
+  }
+  .heading{
+  font-weight: bold;
+  font-size: 28px;
+  position: absolute;
+  top:130vh;
+  left:53vw;
+  }
+  .about{
+    left:50vw;
+    position: absolute;
+    top:140vh;
+    font-size: 18px;
+  line-height: 3vh;
+  }
+  #buto{
+    top:165vh;
+    left:50vw;
+    position: absolute;
+    height: 4vh;
+    width: 8vw;
+    font-size: 10px;
+  }
+  #myDIV {
+    width: 100%;
+    top: 14vh;
+    position: absolute;
+    left:9vw;
+    display:none;
+    font-weight: 300;
+    font-size: 18px;
+  line-height: 3vh;
+  color: black;
+  }
+  #course{
+    top:-70vh;
+    position: absolute;
+    left:40vw;
+    font-size: 40px;
+  }
+  .col1{
+    left:20vw;
+    position: absolute;
+  }
+  .col2{
+    left: 50vw;
+    position: absolute;
+    width: 30vw;
+    font-size: 16px;
+
+  }
+  .col4{
+    left:60vw;
+    position: absolute;
+  }
+  .col3{
+    left: 20vw;
+    position: absolute;
+    width: 30vw;
+    font-size: 16px;
+  }
+  .cor1{
+    width: 20vw;
+    height: 15vh;
+  }
+  .row{
+    top:-25vh;
+    position: absolute;
+  }
+  .row2{
+    top: 10vh;
+    position: absolute;
+  }
+  .row3{
+    top: 45vh;
+    position: absolute;
+  }
+    .row4{
+      top: 80vh;
+      position: absolute;
+    }
+    .row5{
+      top:120vh;
+      position:absolute;
+    }
+    .cont{
+      top:290vh;
+      position: absolute;
+    }
+    .d1{
+      left:90vw;
+      top:200vw;
+      height: 180vh;
+      width: 10vw;
+      position: absolute;
+    }
+    .d2{
+      top:250vw;
+      height: 150vh;
+      width: 10vw;
+      left: 0;
+      position: absolute;
+    }
+    .video{
+  top:470vh;
+      position: absolute;
+      height: 70vh;
+      left: 0;
+      width: 100vw;
+    }
+    /* Slideshow container */
+  .slideshow-container {
+    max-width: 100vh;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 6vw;
+    position: absolute;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next {font-size: 11px}
+  }
+  .vid{
+    width:80vh;  height:60vh;
+    padding-left: 10vw;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .grid-item {
+    padding-top: 70px;
+    font-size: 32px;
+    text-align: center;
+  }
+  .log{
+      width: 10vw;
+      height: 10vh;
+
+  }
+  .logo{
+    top:2vh;
+    position: absolute;
+  }
+  .quote{
+    top:50vh;
+    left: 30vw;
+    position: absolute;
+    font-size: 47px;
+    text-align: center;
+  }
+  .position{
+    top:130vh;
+    position: absolute;
+  }
+  .book2{
+    left:10vw;
+    position: absolute;
+    top:-1vh;
+    height: 25vh;
+    width: 27vw;
+  }
+  .book1{
+    left:20vw;
+    position: absolute;
+    top:13vh;
+    height: 25vh;
+    width: 27vw;
+    z-index: 1;
+  }
+  .book3{
+    left:1vw;
+    position: absolute;
+    height: 25vh;
+    width:27vw;
+    top:20vh;
+    z-index: 0.5;
+  }
+  .heading{
+  font-weight: bold;
+  font-size: 38px;
+  position: absolute;
+  top:130vh;
+  left:50vw;
+  }
+  .about{
+    left:50vw;
+    position: absolute;
+    top:140vh;
+    font-size: 25px;
+  line-height: 3vh;
+  }
+  #buto{
+    top:173vh;
+    left:50vw;
+    position: absolute;
+    height: 4vh;
+    width: 8vw;
+    font-size: 12px;
+  }
+  #myDIV {
+    width: 100%;
+    position: absolute;
+    left:10vw;
+    display:none;
+    font-weight: 300;
+    font-size: 25px;
+  line-height: 3vh;
+  color: black;
+  }
+  #course{
+    top:-70vh;
+    position: absolute;
+    left:40vw;
+    font-size: 65px;
+  }
+  .col1{
+    left:20vw;
+    position: absolute;
+  }
+  .col2{
+    left: 50vw;
+    position: absolute;
+    width: 30vw;
+    font-size: 20px;
+
+  }
+  .col4{
+    left:60vw;
+    position: absolute;
+  }
+  .col3{
+    left: 20vw;
+    position: absolute;
+    width: 30vw;
+    font-size: 19px;
+  }
+  .cor1{
+    width: 25vw;
+    height: 20vh;
+  }
+  .row{
+    top:-25vh;
+    position: absolute;
+  }
+  .row2{
+    top: 10vh;
+    position: absolute;
+  }
+  .row3{
+    top: 45vh;
+    position: absolute;
+  }
+    .row4{
+      top: 80vh;
+      position: absolute;
+    }
+    .row5{
+      top:120vh;
+      position:absolute;
+    }
+    .cont{
+      top:290vh;
+      position: absolute;
+    }
+    .d1{
+      left:90vw;
+      top:170vw;
+      height: 180vh;
+      width: 10vw;
+      position: absolute;
+    }
+    .d2{
+      top:230vw;
+      height: 160vh;
+      width: 10vw;
+      left: 0;
+      position: absolute;
+    }
+    .video{
+  top:480vh;
+      position: absolute;
+      height: 70vh;
+      left: 0;
+      width: 100vw;
+    }
+    /* Slideshow container */
+  .slideshow-container {
+    max-width: 100vh;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 6vw;
+    position: absolute;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next {font-size: 11px}
+  }
+  .vid{
+    width:90vh;  height:65vh;
+    padding-left: 7vw;
+  }
+}
